@@ -15,38 +15,38 @@ int main(void){
 
   if (grade >= 93.0){
     char letter[] = "A";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (90.0 <= grade && grade < 93.0){
     char letter[] = "A-";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (87.0 <= grade && grade < 90.0){
     char letter[] = "B+";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (83.0 <= grade && grade < 87.0){
     char letter[] = "B";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (80.0 <= grade && grade < 83.0){
     char letter[] = "B-";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (77.0 <= grade && grade < 80.0){
     char letter[] = "C+";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (70.0 <= grade && grade < 77.0){
     char letter[] = "C";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (60.0 <= grade && grade < 70.0){
     char letter[] = "D";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
   if (grade < 60.0){
     char letter[] = "F";
-    printf("Your letter grade for CMPSC 131 is %s. \n", letter);
+    printf("Your letter grade for CMPSC 131 is %s.\n", letter);
   }
 }
